@@ -1,0 +1,82 @@
+[
+  {
+    "date": "01-04-2025",
+    "gali": 15,
+    "disawar": 42,
+    "faridabad": 67,
+    "ghaziabad": 70
+  },
+  {
+    "date": "02-04-2025",
+    "gali": 96,
+    "disawar": 77,
+    "faridabad": 96,
+    "ghaziabad": 5
+  },
+  {
+    "date": "03-04-2025",
+    "gali": 29,
+    "disawar": 16,
+    "faridabad": 52,
+    "ghaziabad": 18
+  },
+  {
+    "date": "04-04-2025",
+    "gali": 12,
+    "disawar": 19,
+    "faridabad": 16,
+    "ghaziabad": 24
+  },
+  {
+    "date": "05-04-2025",
+    "gali": 60,
+    "disawar": 8,
+    "faridabad": 10,
+    "ghaziabad": 82
+  },
+  {
+    "date": "06-04-2025",
+    "gali": 61,
+    "disawar": 69,
+    "faridabad": 84,
+    "ghaziabad": 21
+  },
+  {
+    "date": "07-04-2025",
+    "gali": 2,
+    "disawar": 85,
+    "faridabad": 74,
+    "ghaziabad": 99
+  },
+  {
+    "date": "08-04-2025",
+    "gali": 14,
+    "disawar": 50,
+    "faridabad": 37,
+    "ghaziabad": 17
+  },
+  {
+    "date": "09-04-2025",
+    "gali": 4,
+    "disawar": 30,
+    "faridabad": 23,
+    "ghaziabad": 74
+  },
+  {
+    "date": "10-04-2025",
+    "gali": 62,
+    "disawar": 55,
+    "faridabad": 96,
+    "ghaziabad": 50
+  },
+  {
+    "date": "11-04-2025",
+    "gali": 73,
+    "disawar": 75,
+    "faridabad": 7,
+    "ghaziabad": 66
+  },
+  {
+    "date": "12-04-2025"
+  }
+]

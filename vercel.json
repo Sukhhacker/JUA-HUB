@@ -1,0 +1,21 @@
+// vercel.json
+{
+  "headers": [
+    {
+      "source": "/data.json",
+      "headers": [
+        {
+          "key": "x-deny-access",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/data.json",
+      "status": 403,
+      "dest": "/"
+    }
+  ]
+}

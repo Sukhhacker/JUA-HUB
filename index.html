@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Data Table</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>JUA-HUB</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>JUA-HUB</h1>
-  <div class="table-container">
-    <table id="dataTable">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>gali</th>
-          <th>disawar</th>
-          <th>faridabad</th>
-          <th>ghaziabad</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Data will be inserted by JS -->
-      </tbody>
-    </table>
-  </div>
-  <script src="script.js"></script>
+    <h1>JUA-HUB</h1>
+    <div class="table-container">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>gali</th>
+                    <th>disawar</th>
+                    <th>faridabad</th>
+                    <th>ghaziabad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be inserted by JS -->
+            </tbody>
+        </table>
+    </div>
+    <script>
+        // disable right click
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        document.onkeydown = function (e) {
+
+            // disable F12 key
+            if (e.keyCode == 123) {
+                return false;
+            }
+
+            // disable I key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                return false;
+            }
+
+            // disable J key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                return false;
+            }
+
+            // disable U key
+            if (e.ctrlKey && e.keyCode == 85) {
+                return false;
+            }
+        }
+
+    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
